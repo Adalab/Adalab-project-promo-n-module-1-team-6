@@ -13,6 +13,7 @@ main {
   align-content: center;
   padding: 1%;
 }
+/*------------*/
 .eslogan {
   text-align: center;
   width: 80%;
@@ -24,6 +25,7 @@ main {
   font-size: 100%;
   /*A escoger entre todas*/
 }
+/*-------------*/
 .equipo {
   display: flex;
   flex-direction: column;
@@ -42,6 +44,33 @@ main {
   font-size: 150%;
   /*A escoger entre todas*/
 }
+/*------------------*/
+.dafo-equipo{
+    border: 2px solid white;
+  background-color: rgb(186, 197, 194);
+  padding: 1%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.fortalezas{width:50%;}
+#fortalezas{
+    /*A escoger entre todas*/
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(33, 174, 184);
+  font-size: 150%;
+  /*A escoger entre todas*/
+}
+
+.debilidades{width: 50%;}
+#debilidades{/*A escoger entre todas*/
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(33, 174, 184);
+    font-size: 150%;
+    /*A escoger entre todas*/}
+/*------------------*/
 .who-we-are {
   border: 2px solid white;
   background-color: aquamarine;
