@@ -1,5 +1,7 @@
 body {
-  background-color: cadetblue;
+  background-color: cadetblue; /*Añadido solo para poder ver las cajas de secciones. Se puede quitar*/
+
+  /*--------------main section-------------------------------------------------------*/
 }
 .eslogan {
   background-color: antiquewhite;
@@ -16,3 +18,4 @@ body {
 #who-we-are {
   font-family: "Courier New", Courier, monospace;
 }
+/*---------------end main section--------------------------------------------------*/
