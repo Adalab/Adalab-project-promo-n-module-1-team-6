@@ -5,15 +5,19 @@ body {
 
 /*--------------main section-------------------------------------------------------*/
 main {
+  height: 90%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  padding: 1%;
 }
 .eslogan {
+  text-align: center;
   width: 80%;
   background-color: antiquewhite;
+  padding: 1%;
   /*A escoger entre todas*/
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(98, 105, 105);
@@ -41,13 +45,18 @@ main {
 .who-we-are {
   border: 2px solid white;
   background-color: aquamarine;
-  /*A escoger entre todas*/
+  padding: 1%;}
+
+  .who-we-are p {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(98, 105, 105);
   font-size: 100%;
-  /*A escoger entre todas*/
+  }/*A escoger entre todas*/
+  
 }
 #who-we-are {
+  text-align: center;
+  padding: 1%;
   /*A escoger entre todas*/
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(33, 174, 184);
