@@ -1,18 +1,28 @@
 body {
-  background-color: cadetblue; /*Añadido solo para poder ver las cajas de secciones. Se puede quitar*/
+  background-color: cadetblue;
+  margin: 2%;
+} /*Añadido solo para poder ver las cajas de secciones. Se puede quitar*/
 
-  /*--------------main section-------------------------------------------------------*/
+/*--------------main section-------------------------------------------------------*/
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 .eslogan {
+  width: 80%;
   background-color: antiquewhite;
 }
 .equipo {
-  background-color: bisque;
+  background-color: antiquewhite;
 }
 #team {
   font-family: "Courier New", Courier, monospace;
 }
 .who-we-are {
+  border: 2px solid white;
   background-color: aquamarine;
 }
 #who-we-are {
