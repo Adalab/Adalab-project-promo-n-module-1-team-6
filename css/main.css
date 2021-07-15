@@ -12,6 +12,11 @@ main {
   justify-content: center;
   align-content: center;
   padding: 1%;
+  /*A escoger entre todas*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(98, 105, 105);
+  font-size: 100%;
+  /*A escoger entre todas*/
 }
 /*------------*/
 .eslogan {
@@ -19,11 +24,6 @@ main {
   width: 80%;
   background-color: antiquewhite;
   padding: 1%;
-  /*A escoger entre todas*/
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: rgb(98, 105, 105);
-  font-size: 100%;
-  /*A escoger entre todas*/
 }
 /*-------------*/
 .equipo {
@@ -45,8 +45,8 @@ main {
   /*A escoger entre todas*/
 }
 /*------------------*/
-.dafo-equipo{
-    border: 2px solid white;
+.dafo-equipo {
+  border: 2px solid white;
   background-color: rgb(186, 197, 194);
   padding: 1%;
   text-align: center;
@@ -55,35 +55,39 @@ main {
   justify-content: center;
   align-content: center;
 }
-.fortalezas{width:50%;}
-#fortalezas{
-    /*A escoger entre todas*/
+.fortalezas {
+  width: 50%;
+}
+#fortalezas {
+  /*A escoger entre todas*/
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(33, 174, 184);
   font-size: 150%;
   /*A escoger entre todas*/
 }
 
-.debilidades{width: 50%;}
-#debilidades{/*A escoger entre todas*/
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    color: rgb(33, 174, 184);
-    font-size: 150%;
-    /*A escoger entre todas*/}
+.debilidades {
+  width: 50%;
+}
+#debilidades {
+  /*A escoger entre todas*/
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(33, 174, 184);
+  font-size: 150%;
+  /*A escoger entre todas*/
+}
 /*------------------*/
 .who-we-are {
   border: 2px solid white;
   background-color: aquamarine;
-  padding: 1%;}
-
-  .who-we-are p {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: rgb(98, 105, 105);
-  font-size: 100%;
-  }/*A escoger entre todas*/
-  
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
+
 #who-we-are {
+  width: 100%;
   text-align: center;
   padding: 1%;
   /*A escoger entre todas*/
