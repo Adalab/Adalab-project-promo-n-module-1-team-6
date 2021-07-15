@@ -103,4 +103,8 @@ body {
   font-size: 150%;
   /*A escoger entre todas*/
 }
+.integrantes {
+  width: 50%;
+  padding: 2%;
+}
 /*---------------end main section--------------------------------------------------*/
