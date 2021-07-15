@@ -14,18 +14,44 @@ main {
 .eslogan {
   width: 80%;
   background-color: antiquewhite;
+  /*A escoger entre todas*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(98, 105, 105);
+  font-size: 100%;
+  /*A escoger entre todas*/
 }
 .equipo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   background-color: antiquewhite;
 }
 #team {
-  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+  display: flexbox;
+  justify-content: center;
+  text-align: center;
+  /*A escoger entre todas*/
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(33, 174, 184);
+  font-size: 150%;
+  /*A escoger entre todas*/
 }
 .who-we-are {
   border: 2px solid white;
   background-color: aquamarine;
+  /*A escoger entre todas*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(98, 105, 105);
+  font-size: 100%;
+  /*A escoger entre todas*/
 }
 #who-we-are {
-  font-family: "Courier New", Courier, monospace;
+  /*A escoger entre todas*/
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(33, 174, 184);
+  font-size: 150%;
+  /*A escoger entre todas*/
 }
 /*---------------end main section--------------------------------------------------*/
