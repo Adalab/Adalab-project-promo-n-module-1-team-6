@@ -1,10 +1,10 @@
 body {
-  background-color: cadetblue;
+  background-color: rgb(108, 191, 194);
   margin: 2%;
 } /*Añadido solo para poder ver las cajas de secciones. Se puede quitar*/
 
 /*--------------main section-------------------------------------------------------*/
-main {
+.main {
   height: 90%;
   display: flex;
   flex-direction: row;
@@ -12,6 +12,8 @@ main {
   justify-content: center;
   align-content: center;
   padding: 1%;
+  /*a definir*/
+  border: 2px solid white;
   /*A escoger entre todas*/
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(98, 105, 105);
@@ -20,10 +22,13 @@ main {
 }
 /*------------*/
 .eslogan {
+  display: flexbox;
   text-align: center;
   width: 80%;
-  background-color: antiquewhite;
   padding: 1%;
+  /*a definir --- da error*/
+  border: 2px solid white;
+  background-color: rbg rgb(233, 241, 239);
 }
 /*-------------*/
 .equipo {
@@ -31,7 +36,9 @@ main {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  background-color: antiquewhite;
+  /*a definir --- da error*/
+  border: 2px solid white;
+  background-color: rbg rgb(233, 241, 239);
 }
 #team {
   width: 100%;
@@ -79,11 +86,11 @@ main {
 /*------------------*/
 .who-we-are {
   border: 2px solid white;
-  background-color: aquamarine;
   padding: 1%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  background-color: rbg rgb(233, 241, 239);
 }
 
 #who-we-are {
