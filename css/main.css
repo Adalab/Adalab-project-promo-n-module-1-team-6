@@ -1,6 +1,7 @@
 body {
   background-color: rgb(108, 191, 194);
   margin: 2%;
+  font-family: OpenSans-SemiBold;
 } /*Añadido solo para poder ver las cajas de secciones. Se puede quitar*/
 
 /*--------------main section-------------------------------------------------------*/
@@ -12,44 +13,49 @@ body {
   justify-content: center;
   align-content: center;
   padding: 1%;
+  color: rgb(98, 105, 105);
+  font-size: 16px;
+  font-family: OpenSans-Regular;
+  color: #54585a;
   /*a definir*/
+  background-color: rgba(255, 255, 255, 0.658);
   border: 2px solid white;
   /*A escoger entre todas*/
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: rgb(98, 105, 105);
-  font-size: 100%;
-  /*A escoger entre todas*/
+}
+
+.titulo {
+  color: #099d8d;
+  font-family: Rubik-Medium;
+  font-size: 24px;
 }
 /*------------*/
 .eslogan {
   display: flexbox;
   text-align: center;
   width: 80%;
-  padding: 1%;
+  padding: 2%;
+  font-size: 24px;
+  color: #000 100%;
   /*a definir --- da error*/
   border: 2px solid white;
   background-color: rbg rgb(233, 241, 239);
 }
 /*-------------*/
 .equipo {
+  padding: 2%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  /*a definir --- da error*/
+  text-align: center;
   border: 2px solid white;
   background-color: rbg rgb(233, 241, 239);
 }
-#team {
+.titulo-team {
   width: 100%;
   display: flexbox;
   justify-content: center;
   text-align: center;
-  /*A escoger entre todas*/
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: rgb(33, 174, 184);
-  font-size: 150%;
-  /*A escoger entre todas*/
 }
 /*------------------*/
 .dafo-equipo {
@@ -58,53 +64,57 @@ body {
   padding: 1%;
   text-align: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
 }
 .fortalezas {
-  width: 50%;
+  width: 100%;
+  padding: 2%;
 }
-#fortalezas {
-  /*A escoger entre todas*/
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: rgb(33, 174, 184);
-  font-size: 150%;
-  /*A escoger entre todas*/
+.titulo-fortalezas {
+  font-size: 22px;
 }
 
 .debilidades {
-  width: 50%;
+  width: 100%;
+  padding: 2%;
 }
-#debilidades {
-  /*A escoger entre todas*/
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: rgb(33, 174, 184);
-  font-size: 150%;
-  /*A escoger entre todas*/
+.titulo-debilidades {
+  font-size: 22px;
 }
 /*------------------*/
 .who-we-are {
+  padding: 2%;
   border: 2px solid white;
   padding: 1%;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
   background-color: rbg rgb(233, 241, 239);
 }
 
-#who-we-are {
+.title-who-we-are {
   width: 100%;
   text-align: center;
   padding: 1%;
-  /*A escoger entre todas*/
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: rgb(33, 174, 184);
-  font-size: 150%;
-  /*A escoger entre todas*/
 }
 .integrantes {
-  width: 50%;
+  width: 100%;
   padding: 2%;
 }
+
+.titulo-integrantes {
+  color: #000 100%;
+  font-size: 20px;
+}
+
+.logos-redes {
+  padding: 1%;
+}
 /*---------------end main section--------------------------------------------------*/
+/*--------------footer------------*/
