@@ -30,7 +30,7 @@
           <strong>Frase lema grupo </strong>Lorem ipsum dolor sit amet, alias?
         </p>
       </section>
-      <section class="equipo">
+      <section class="equipo" id="link-equipo">
         <h1 class="titulo titulo-team">EQUIPO</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
@@ -67,7 +67,7 @@
           </p>
         </div>
       </div>
-      <section class="who-we-are">
+      <section class="who-we-are" id="link-who-we-are">
         <h2 class="titulo title-who-we-are">QUIÉNES SOMOS</h2>
         <div class="integrantes">
           <div class="photo">
@@ -154,16 +154,16 @@
     <footer class="footer">
       <div class="footer_container">
         <section class="footer_copy">Nombre del grupo &copy; 2021</section>
-        <section class="footer_links">
-          <nav>
-            <a href="">Equipo</a>
-            <a href="">Quienes somos</a>
-            <a href="">Contacto</a>
-          </nav>
-        </section>
+        <nav class="footer_links">
+          <a href="#link-equipo" class="footer_link">Equipo</a>
+          <a href="#link-who-we-are" class="footer_link">Quienes somos</a>
+          <a href="contact.html" class="footer_link" target="_blank"
+            >Contacto</a
+          >
+        </nav>
         <section class="logo">
-          <a href="https://adalab.es/"
-            ><img src="logo-adalab.png" alt="Adalab"
+          <a href="https://adalab.es/" target="_blank"
+            ><img class="footer_logo_image" src="logo-adalab.png" alt="Adalab"
           /></a>
         </section>
       </div>
