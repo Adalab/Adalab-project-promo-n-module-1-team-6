@@ -1,8 +1,10 @@
 body {
-  background-color: rgb(108, 191, 194);
+  background-color: white;
   margin: 2%;
   font-family: OpenSans-SemiBold;
-} /*Añadido solo para poder ver las cajas de secciones. Se puede quitar*/
+}
+
+/*Añadido solo para poder ver las cajas de secciones. Se puede quitar*/
 
 /*--------------main section-------------------------------------------------------*/
 .main {
@@ -13,9 +15,9 @@ body {
   justify-content: center;
   align-content: center;
   padding: 1%;
-  color: rgb(98, 105, 105);
   font-size: 16px;
-  font-family: OpenSans-Regular;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #54585a;
   /*a definir*/
   background-color: rgba(255, 255, 255, 0.658);
@@ -25,7 +27,8 @@ body {
 
 .titulo {
   color: #099d8d;
-  font-family: Rubik-Medium;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
 }
 /*------------*/
@@ -49,28 +52,36 @@ body {
   align-content: center;
   text-align: center;
   border: 2px solid white;
+  line-height: 1.5;
   background-color: rbg rgb(233, 241, 239);
 }
 .titulo-team {
+  color: #14d9c4;
   width: 100%;
   display: flexbox;
   justify-content: center;
   text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 10px 10px;
 }
 /*------------------*/
 .dafo-equipo {
-  border: 2px solid white;
-  background-color: rgb(186, 197, 194);
-  padding: 1%;
+  background-color: #dbdbdb;
+  padding: 3%;
+  width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-content: center;
 }
+/* revisar margenes */
 .fortalezas {
   width: 100%;
   padding: 2%;
+  line-height: 1.5;
+  margin: 20px 10px 0;
 }
 .titulo-fortalezas {
   font-size: 22px;
@@ -79,9 +90,11 @@ body {
 .debilidades {
   width: 100%;
   padding: 2%;
+  line-height: 1.5;
 }
 .titulo-debilidades {
   font-size: 22px;
+  margin: 20px 20px 0;
 }
 /*------------------*/
 .who-we-are {
@@ -102,19 +115,29 @@ body {
   width: 100%;
   text-align: center;
   padding: 1%;
+  line-height: 1.88;
 }
 .integrantes {
   width: 100%;
   padding: 2%;
+  line-height: 1.5;
 }
 
 .titulo-integrantes {
-  color: #000 100%;
+  color: black;
   font-size: 20px;
 }
 
 .logos-redes {
-  padding: 1%;
+  width: 124px;
+  height: 30px;
+  margin: 15px 83px 0;
+  font-family: FontAwesome5Brands;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  color: #099d8d;
 }
+
 /*---------------end main section--------------------------------------------------*/
 /*--------------footer------------*/
