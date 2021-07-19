@@ -10,53 +10,62 @@
     ></script>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Equipo 6</title>
+    <link rel="icon" type="image/png" href="./img/4 fatastic"> 
+    <!-- aqui arriba es dónde se incluiye la imagen escogida para el nombre de la página. Ha quedado muy pequeña, quizas debamos escoger otra -->
+    <title>Las 4Fantásticas </title>
   </head>
   <body>
     <header>
       <!-- MENÚ SUPERIOR Y TÍTULO: nombre de equipo y botones del navegador-->
         <div class="nombreequipoheader"><strong>EQUIPO 6</strong></div>
         <nav class="textomenuheader">
+          <ul> 
           <div class="boxheader1">
             <a href="./index#" style="text-decoration: none">
               <strong>EQUIPO 6</strong></a
             >
           </div>
+          <nav class="textomenuheader">
+            <li class="boxheader1">
+              <a class="enlace" href="#link-equipo">
+                <strong>EQUIPO 6</strong></a
+              >
+            </li>
 
-          <div class="boxheader2">
-            <a href="./index#" style="text-decoration: none"
-              ><strong>QUIENES SOMOS</strong></a
-            >
-          </div>
+            <li class="boxheader2">
+              <a class="enlace" href="#link-who-we-are"
+                ><strong>QUIENES SOMOS</strong></a
+              >
+            </li>
 
-          <div class="boxheader3">
+          <li class="boxheader3">
             <a href="./index#" style="text-decoration: none"
               ><strong>CONTACTO</strong></a
             >
+            </li>
+          </ul>
         </nav>
         <!-- IMAGEN DE FONDO: -->
-        <img
-          class="imagenfondo"
+        <div >
+          <img  class="imagenfondo"
+         
           src="./img/2180967.jpg"
           alt="fondo"
         />
+        </div>
+        
 
         <!-- ESLOGAN -->
         <div class="esloganheader">
-          <p>Las cuatro fantásticas</p>
+          <p>Las cuatro fantásticas </p>
         </div>
       </div>
     </header>
     <main class="main">
-      <!-- Imagen -->
-      <section class="eslogan">
-        <p>
-          <strong>Frase lema grupo </strong>Lorem ipsum dolor sit amet, alias?
-        </p>
-      </section>
       <section class="equipo" id="link-equipo">
-        <h1 class="titulo titulo-team">EQUIPO</h1>
-        <p>
+        <h1 class="titulo titulo-team">Equipo</h1>
+        
+         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
           similique pariatur neque illo optio reprehenderit non labore fugit
           excepturi natus dolorem repudiandae qui perspiciatis, ad asperiores!
@@ -67,8 +76,10 @@
           mollitia rem beatae, incidunt possimus dolores magni dolore
           perspiciatis id cum debitis deleniti harum, aliquam eos sunt inventore
           porro numquam illum.
-        </p>
+        </p> 
+        <div class="triangulo"></div>
       </section>
+     
       <div class="dafo-equipo">
         <div class="fortalezas">
           <h1 class="titulo titulo-fortalezas">Fortalezas</h1>
@@ -92,7 +103,7 @@
         </div>
       </div>
       <section class="who-we-are" id="link-who-we-are">
-        <h2 class="titulo title-who-we-are">QUIÉNES SOMOS</h2>
+        <h2 class="titulo title-who-we-are">Quiénes somos</h2>
         <div class="integrantes">
           <div class="photo">
             <img src="./img/foto-ejemplo.jpg" alt="Fotografia" />
@@ -179,16 +190,14 @@
       <div class="footer_container">
         <section class="footer_copy">Nombre del grupo &copy; 2021</section>
         <nav class="footer_links">
-          <a href="#link-equipo" class="footer_link">Equipo</a>
-          <a href="#link-who-we-are" class="footer_link">Quienes somos</a>
-          <a href="contact.html" class="footer_link" target="_blank"
-            >Contacto</a
-          >
+          <ul>
+            <li><a href="#link-equipo" class="footer_link">Equipo</a></li>
+            <li><a href="#link-who-we-are" class="footer_link">Quienes somos</a></li>
+            <li><a href="contact.html" class="footer_link" target="_blank">Contacto</a></li>
+          </ul>
         </nav>
         <section class="logo">
-          <a href="https://adalab.es/" target="_blank"
-            ><img class="footer_logo_image" src="logo-adalab.png" alt="Adalab"
-          /></a>
+          <a href="https://adalab.es/" target="_blank"><img class="footer_logo_image" src="logo-adalab.png" alt="Adalab"/></a>
         </section>
       </div>
     </footer>
