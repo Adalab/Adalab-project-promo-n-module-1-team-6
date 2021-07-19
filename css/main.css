@@ -361,9 +361,8 @@ body {
   .integrantes,
   .text-container {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around; 
   }
   .integrante1 {
-    flex-direction: row-reverse;
-    justify-content: space-around;
-  }
+  justify-content: space-around;
+  flex-direction: row-reverse;}
