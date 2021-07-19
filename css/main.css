@@ -326,3 +326,46 @@ body {
   height: 45px;
 }
 /*---------------mediaqueris------------*/
+@media all and (min-width: 320px) {
+  .dafo-equipo,
+  .integrantes {
+    flex-direction: row;
+  }
+  .integrante1 {
+    flex-direction: row-reverse;
+  }
+  .text-integrante1 {
+    padding-left: 0px;
+    margin-right: 8%;
+  }
+  .photo-container {
+    min-width: 230px;
+  }
+  .text-container {
+    position: relative;
+    margin-top: 0vh;
+  }
+  .text {
+    position: relative;
+    margin-top: 0vh;
+    text-align: justify;
+    padding-left: 8%;
+  }
+  .logos-redes {
+    position: relative;
+    margin-top: 0vh;
+  }
+}
+@media all and (min-width: 768px) {
+  .dafo-equipo,
+  .integrantes,
+  .text-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .integrante1 {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+}
+/*--------------------hoover--------*/
