@@ -72,9 +72,9 @@ Gris de fondo: #F1F1F1 */
 
 .imagenfondo {
   box-sizing: border-box;
-  align-content: center; /*no esta alineado, no funciona*/
+  align-content: center;
   width: 100%;
-  max-width: 700px; /*queda pequeño en pantallas grandes*/
+  max-height: 421px;
 }
 
 .esloganheader {
@@ -118,7 +118,6 @@ Gris de fondo: #F1F1F1 */
 
 body {
   background-color: #ffffff;
-  margin: 2%;
   font-family: OpenSans-SemiBold;
 }
 
@@ -228,6 +227,7 @@ body {
   width: 100%;
   padding: 2%;
   line-height: 1.5;
+  align-content: center;
 }
 
 .titulo-integrantes {
@@ -236,8 +236,6 @@ body {
 }
 
 .logos-redes {
-  width: 124px;
-  height: 30px;
   margin: 15px 83px 0;
   font-family: FontAwesome5Brands;
   font-size: 16px;
