@@ -12,10 +12,6 @@ Gris de fondo: #F1F1F1 */
   --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-* {
-  margin: 0px;
-  padding: 0px;
-}
 
 .nombreequipoheader {
   display: flex;
@@ -87,23 +83,24 @@ Gris de fondo: #F1F1F1 */
 
 .esloganheader {
   position: absolute;
-  align-items: center;
+  justify-content: center;
+  text-align: center;
   margin: 0 0 25px;
   overflow: hidden;
-  padding: 20px;
-  background-color: #6bd5f1;
+  padding: 20px; /*esta repetido*/
+  background-color: #6bd5f1; /*esta repetido*/
   border: 1px solid #afcde3;
   -webkit-border-radius: 10px;
   border-radius: 15px;
   font-size: 15px;
   margin-top: -6vh;
   margin-left: 5vw;
-  padding: 6px;
+  padding: 6px; /*esta repetido*/
   height: 10%;
   width: 50%;
   color: black;
   font-family: var(--font-family);
-  background-color: #14d9c4;
+  background-color: #14d9c4; /*esta repetido*/
   border: solid 0.5px #099d8d;
 }
 
@@ -127,6 +124,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  text-align: center;
   padding: 1%;
   font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -152,10 +150,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  text-align: center;
   border: 2px solid white;
   line-height: 1.5;
   background-color: #f1f1f1;
+}
+
+.equipo p {
+  z-index: 9999;
 }
 .titulo-team {
   color: #14d9c4;
@@ -167,22 +168,31 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 10px 10px;
   text-transform: uppercase;
+  z-index: 9999;
+}
+/*------------------*/
+.triangulo {
+  background-color: #f1f1f1;
+  transform: rotate(45deg);
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: -4vh;
+  margin-left: 50%;
 }
 /*------------------*/
 .dafo-equipo {
-  background-color: #b8b8b9;
-  padding: 3%;
-  width: 100%;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
+  background-color: #b8b8b9;
+  width: 100%;
+  text-align: center;
+  padding: 2%;
 }
 /* revisar margenes */
 .fortalezas {
   width: 100%;
-  padding: 2%;
   line-height: 1.5;
   margin: 20px 10px 0;
 }
@@ -192,7 +202,6 @@ body {
 
 .debilidades {
   width: 100%;
-  padding: 2%;
   line-height: 1.5;
 }
 .titulo-debilidades {
