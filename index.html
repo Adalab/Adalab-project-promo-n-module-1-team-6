@@ -17,25 +17,26 @@
       <!-- MENÚ SUPERIOR Y TÍTULO: nombre de equipo y botones del navegador-->
         <div class="nombreequipoheader"><strong>EQUIPO 6</strong></div>
         <div class="containerheader"> 
-        <nav class="textomenuheader">
-          <div class="boxheader1">
-            <a href="#link-equipo" style="text-decoration: none">
-              <strong>EQUIPO 6</strong></a
-            >
-          </div>
+          <nav class="textomenuheader">
+            <div class="boxheader1">
+              <a class="enlace" href="#link-equipo">
+                <strong>EQUIPO 6</strong></a
+              >
+            </div>
 
-          <div class="boxheader2">
-            <a href="#link-who-we-are" style="text-decoration: none"
-              ><strong>QUIENES SOMOS</strong></a
-            >
-          </div>
+            <div class="boxheader2">
+              <a class="enlace" href="#link-who-we-are"
+                ><strong>QUIENES SOMOS</strong></a
+              >
+            </div>
 
-          <div class="boxheader3">
-            <a href="./contact.html" style="text-decoration: none"
-              ><strong>CONTACTO</strong></a
-            >
-        </nav>
-      </div>
+            <div class="boxheader3">
+              <a class="enlace" href="./contact.html"
+                ><strong>CONTACTO</strong></a
+              >
+            </div>
+          </nav>
+       </div>
         <!-- IMAGEN DE FONDO: -->
         <div >
           <img  class="imagenfondo"
@@ -54,7 +55,7 @@
     </header>
     <main class="main">
       <section class="equipo" id="link-equipo">
-        <h1 class="titulo titulo-team">EQUIPO</h1>
+        <h1 class="titulo titulo-team">Equipo</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
           similique pariatur neque illo optio reprehenderit non labore fugit
@@ -91,7 +92,7 @@
         </div>
       </div>
       <section class="who-we-are" id="link-who-we-are">
-        <h2 class="titulo title-who-we-are">QUIÉNES SOMOS</h2>
+        <h2 class="titulo title-who-we-are">Quiénes somos</h2>
         <div class="integrantes">
           <div class="photo">
             <img src="./img/foto-ejemplo.jpg" alt="Fotografia" />
@@ -178,16 +179,14 @@
       <div class="footer_container">
         <section class="footer_copy">Nombre del grupo &copy; 2021</section>
         <nav class="footer_links">
-          <a href="#link-equipo" class="footer_link">Equipo</a>
-          <a href="#link-who-we-are" class="footer_link">Quienes somos</a>
-          <a href="contact.html" class="footer_link" target="_blank"
-            >Contacto</a
-          >
+          <ul>
+            <li><a href="#link-equipo" class="footer_link">Equipo</a></li>
+            <li><a href="#link-who-we-are" class="footer_link">Quienes somos</a></li>
+            <li><a href="contact.html" class="footer_link" target="_blank">Contacto</a></li>
+          </ul>
         </nav>
         <section class="logo">
-          <a href="https://adalab.es/" target="_blank"
-            ><img class="footer_logo_image" src="logo-adalab.png" alt="Adalab"
-          /></a>
+          <a href="https://adalab.es/" target="_blank"><img class="footer_logo_image" src="logo-adalab.png" alt="Adalab"/></a>
         </section>
       </div>
     </footer>
