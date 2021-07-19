@@ -11,13 +11,13 @@ Gris de fondo: #F1F1F1 */
 .nombreequipoheader {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: space-around;
   text-align: center;
   width: 100%;
   height: 20px;
   color: white;
-  text-align: center;
   background-color: #099d8d;
   font-family: var(--font-family);
 }
@@ -47,29 +47,6 @@ Gris de fondo: #F1F1F1 */
   text-align: center;
   background-color: #14d9c4;
   font-family: var(--font-family);
-}
-
-.boxheader1 {
-  height: 10px;
-  font-size: 15px;
-  padding: 15px;
-  width: 33%;
-  text-align: center;
-}
-
-.boxheader2 {
-  height: 15px;
-  font-size: 15px;
-  padding: 15px;
-  width: 40%;
-  text-align: center;
-}
-
-.boxheader3 {
-  height: 15px;
-  font-size: 15px;
-  padding: 15px;
-  width: 33%;
 }
 
 .imagenfondo {
