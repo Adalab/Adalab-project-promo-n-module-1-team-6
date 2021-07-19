@@ -72,9 +72,9 @@ Gris de fondo: #F1F1F1 */
 
 .imagenfondo {
   box-sizing: border-box;
-  align-content: center;
+  align-content: center; /*no esta alineado, no funciona*/
   width: 100%;
-  max-width: 700px;
+  max-width: 700px; /*queda pequeño en pantallas grandes*/
 }
 
 .esloganheader {
@@ -98,6 +98,18 @@ Gris de fondo: #F1F1F1 */
   background-color: #14d9c4;
   border: solid 0.5px #099d8d;
 }
+
+/*
+.eslogan {
+  display: absolute;
+  margin-top: 20px;
+  text-align: center;
+  width: 80%;
+  padding: 2%;
+  font-size: 24px;
+  color: #000 100%;
+  border: 2px solid #ffffff;
+  background-color: #f1f1f1;} */
 
 .esloganheader:hover {
   background-color: pink;
@@ -137,19 +149,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
 }
-/*------------*/
-.eslogan {
-  display: absolute;
-  margin-top: 20px;
-  text-align: center;
-  width: 80%;
-  padding: 2%;
-  font-size: 24px;
-  color: #000 100%;
-  /*a definir --- da error*/
-  border: 2px solid #ffffff;
-  background-color: #f1f1f1;
-}
+
 /*-------------*/
 .equipo {
   padding: 2%;
