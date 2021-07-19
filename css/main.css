@@ -7,10 +7,6 @@ Negro: #000000
 Gris oscuro: #54585A
 Gris claro: #B8B8B9
 Gris de fondo: #F1F1F1 */
-:root {
-  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
 
 .nombreequipoheader {
   display: flex;
@@ -20,7 +16,6 @@ Gris de fondo: #F1F1F1 */
   text-align: center;
   width: 100%;
   height: 20px;
-  width: 100%;
   color: white;
   text-align: center;
   background-color: #099d8d;
@@ -34,17 +29,25 @@ Gris de fondo: #F1F1F1 */
   flex-wrap: wrap;
   width: 100%;
   height: 40px;
+  text-decoration: none;
   color: white;
   background-color: #14d9c4;
   font-family: var(--font-family);
 }
 
 .textomenuheader {
+  box-sizing: content-box;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-content: space-around;
   width: 100%;
+  height: 40px;
+  text-decoration: none;
+  color: white;
   text-align: center;
+  background-color: #14d9c4;
+  font-family: var(--font-family);
 }
 
 .boxheader1 {
@@ -74,7 +77,7 @@ Gris de fondo: #F1F1F1 */
   box-sizing: border-box;
   align-content: center;
   width: 100%;
-  max-width: 700px;
+  height: 25%;
 }
 
 .esloganheader {
