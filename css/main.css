@@ -13,6 +13,13 @@ Gris de fondo: #F1F1F1 */
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+body {
+  background-color: #ffffff;
+  font-family: OpenSans-SemiBold;
+  padding-left: 0.5rem;
+  margin-right: o.5rem;
+  width: 100%;
+}
 .nombreequipoheader {
   display: flex;
   flex-direction: row;
@@ -26,6 +33,9 @@ Gris de fondo: #F1F1F1 */
   background-color: #099d8d;
   font-family: var(--font-family);
 }
+.textomenuheader {
+}
+
 .logo-image {
   height: 80%;
 }
@@ -95,9 +105,6 @@ Gris de fondo: #F1F1F1 */
   align-items: center;
   margin: 0 0 25px;
   overflow: hidden;
-  padding: 20px; /*esta repetido*/
-  background-color: #6bd5f1; /*esta repetido*/
-  border: 1px solid #afcde3;
   -webkit-border-radius: 10px;
   border-radius: 15px;
   font-size: 15px;
@@ -110,6 +117,7 @@ Gris de fondo: #F1F1F1 */
   font-family: var(--font-family);
   background-color: #14d9c4; /*esta repetido*/
   border: solid 0.5px #099d8d;
+  margin-left: 2%;
 }
 .eslogantext {
   font-family: var(--font-family);
@@ -121,11 +129,6 @@ Gris de fondo: #F1F1F1 */
   background-color: pink;
   border: solid 0.5px purple;
   margin-right: 2%;
-}
-
-body {
-  background-color: #ffffff;
-  font-family: OpenSans-SemiBold;
 }
 
 /*Añadido solo para poder ver las cajas de secciones. Se puede quitar*/
