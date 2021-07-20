@@ -13,11 +13,6 @@ Gris de fondo: #F1F1F1 */
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-* {
-  padding: 0%;
-  margin: 0%;
-}
-
 .nombreequipoheader {
   display: flex;
   flex-direction: row;
@@ -125,6 +120,7 @@ Gris de fondo: #F1F1F1 */
 .esloganheader:hover {
   background-color: pink;
   border: solid 0.5px purple;
+  margin-right: 2%;
 }
 
 body {
@@ -271,7 +267,7 @@ body {
 .logos-redes {
   margin: 15px 83px 0;
   font-family: FontAwesome5Brands;
-  font-size: 16px;
+  font-size: 0.5rem;
   line-height: 1.88;
   text-align: center;
   color: #099d8d;
@@ -326,12 +322,14 @@ body {
   height: 45px;
 }
 /*---------------mediaqueris------------*/
-@media all and (min-width: 768px) and (max-width: 1200px) {
+@media all and (min-width: 320px) {
   .dafo-equipo,
   .integrantes,
   .text-container {
     flex-direction: row;
     justify-content: space-around;
+    text-align: justify;
+    padding: 2%;
   }
   .integrante1 {
     justify-content: space-around;
@@ -340,8 +338,12 @@ body {
   .logos-redes {
     position: relative;
     margin-top: 0vh;
+    min-width: 20rem;
   }
-  /*mediaqueries 768/1200 footer*/
+
+  .photo-container {
+    min-width: 300px;
+  }
 
   .footer_container {
     align-items: unset;
@@ -365,7 +367,7 @@ body {
     margin-left: 5%;
   }
 }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 768px) {
   .dafo-equipo,
   .integrantes,
   .text-container {
