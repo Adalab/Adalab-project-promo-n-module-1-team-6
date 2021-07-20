@@ -16,7 +16,6 @@ Gris de fondo: #F1F1F1 */
 body {
   background-color: #ffffff;
   font-family: OpenSans-SemiBold;
-  width: 100%;
 }
 .nombreequipoheader {
   display: flex;
@@ -87,6 +86,7 @@ body {
   box-sizing: border-box;
   align-content: center;
   width: 100%;
+  height: 120%;
 }
 
 .esloganheader {
@@ -122,14 +122,10 @@ body {
   margin-right: 2%;
 }
 
-/*Añadido solo para poder ver las cajas de secciones. Se puede quitar*/
-
 /*--------------main section-------------------------------------------------------*/
 .main {
-  height: 90%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
   text-align: center;
