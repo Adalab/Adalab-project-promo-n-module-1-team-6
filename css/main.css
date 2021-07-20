@@ -378,7 +378,6 @@ body {
     justify-content: space-around;
   }
   .integrante1 {
-<<<<<<< HEAD
     justify-content: space-around;
     flex-direction: row-reverse;
   }
@@ -387,8 +386,3 @@ body {
     margin-top: 0vh;
   }
 }
-=======
-    flex-direction: row-reverse;
-    justify-content: space-around;
-  }
->>>>>>> parent of d3204be (contact)
