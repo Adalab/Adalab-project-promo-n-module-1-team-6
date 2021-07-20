@@ -288,7 +288,7 @@ body {
 }
 .footer_container {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -314,10 +314,10 @@ body {
 .footer_link {
   text-decoration: none;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #54585a;
 }
-.logo {
+.logo_adalab {
   margin-top: 20px;
   margin-bottom: 45px;
 }
@@ -326,43 +326,58 @@ body {
   height: 45px;
 }
 /*---------------mediaqueris------------*/
-@media all and (min-width: 320px) {
+@media all and (min-width: 768px) and (max-width: 1200px) {
   .dafo-equipo,
-  .integrantes {
+  .integrantes,
+  .text-container {
     flex-direction: row;
+    justify-content: space-around;
   }
   .integrante1 {
+    justify-content: space-around;
     flex-direction: row-reverse;
-  }
-  .text-integrante1 {
-    padding-left: 0px;
-    margin-right: 8%;
-  }
-  .photo-container {
-    min-width: 230px;
-  }
-  .text-container {
-    position: relative;
-    margin-top: 0vh;
-  }
-  .text {
-    position: relative;
-    margin-top: 0vh;
-    text-align: justify;
-    padding-left: 8%;
   }
   .logos-redes {
     position: relative;
     margin-top: 0vh;
   }
- 
-@media all and (min-width: 768px) {
+  /*mediaqueries 768/1200 footer*/
+
+  .footer_container {
+    align-items: unset;
+  }
+  .footer_copy {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-left: 5%;
+  }
+
+  .footer_links {
+    display: inline;
+    text-align: end;
+    text-transform: uppercase;
+  }
+  .footer_link {
+    font-size: 1.5rem;
+  }
+  .footer_logo_image {
+    display: inline;
+    margin-left: 5%;
+  }
+}
+@media all and (min-width: 1200px) {
   .dafo-equipo,
   .integrantes,
   .text-container {
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-around;
   }
   .integrante1 {
-  justify-content: space-around;
-  flex-direction: row-reverse;}
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+  .logos-redes {
+    position: relative;
+    margin-top: 0vh;
+  }
+}
