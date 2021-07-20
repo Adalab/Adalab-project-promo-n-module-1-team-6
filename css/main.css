@@ -257,6 +257,7 @@ body {
 }
 .photo {
   width: 100%;
+  min-width: 250px;
 }
 
 .titulo-integrantes {
@@ -340,11 +341,7 @@ body {
   .logos-redes {
     position: relative;
     margin-top: 0vh;
-    min-width: 20rem;
-  }
-
-  .photo-container {
-    min-width: 300px;
+    min-width: 20px;
   }
 
   .footer_container {
