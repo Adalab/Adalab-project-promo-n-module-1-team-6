@@ -283,7 +283,8 @@ body {
   background-color: #f1f1f1;
 }
 .footer_container {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: OpenSans-SemiBold, sans-serif;
+  background-color: #f1f1f1;
   font-size: 0.875rem;
   display: flex;
   flex-direction: column;
@@ -296,7 +297,7 @@ body {
 }
 .footer_copy {
   margin-top: 30px;
-  color: #54585a;
+  color: #b8b8b9;
 }
 .footer_links {
   margin-top: 20px;
@@ -312,13 +313,14 @@ body {
   line-height: 24px;
   font-size: 0.875rem;
   color: #54585a;
+  text-transform: uppercase;
 }
 .logo_adalab {
   margin-top: 20px;
   margin-bottom: 45px;
 }
 .footer_logo_image {
-  width: 115.9;
+  width: 115.9px;
   height: 45px;
 }
 /*---------------mediaqueris------------*/
@@ -346,22 +348,27 @@ body {
     align-items: unset;
   }
   .footer_copy {
+    display: inline;
     font-size: 1rem;
+    max-width: 20rem;
     margin-top: 30px;
-    margin-left: 5%;
+    margin-left: 45px;
   }
-
   .footer_links {
     display: inline;
     text-align: end;
     text-transform: uppercase;
+    margin-top: 24px;
+    margin-bottom: 56px;
   }
   .footer_link {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-right: 45px;
+    line-height: 30px;
   }
   .footer_logo_image {
-    display: inline;
-    margin-left: 5%;
+    position: absolute;
+    transform: translate(45px, -60px);
   }
   .container-hero {
     height: 500px;
@@ -389,6 +396,33 @@ body {
   }
   .imagenfondo {
     max-width: 1200px;
+  }
+  .footer_container {
+    align-items: unset;
+  }
+  .footer_copy {
+    display: inline;
+    font-size: 1rem;
+    max-width: 20rem;
+    margin-top: 30px;
+    margin-left: 45px;
+  }
+
+  .footer_links {
+    display: inline;
+    text-align: end;
+    text-transform: uppercase;
+    margin-top: 24px;
+    margin-bottom: 56px;
+  }
+  .footer_link {
+    font-size: 1rem;
+    margin-right: 45px;
+    line-height: 30px;
+  }
+  .footer_logo_image {
+    position: absolute;
+    transform: translate(45px, -60px);
   }
 }
 /*movil*/
