@@ -90,7 +90,6 @@ body {
   box-sizing: border-box;
   align-content: center;
   width: 100%;
-  height: 70vh;
 }
 
 .esloganheader {
@@ -335,6 +334,15 @@ body {
     justify-content: space-around;
     flex-direction: row-reverse;
   }
+  .container-hero {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+  }
+  .imagenfondo {
+    width: 80%;
+  }
+
   .logos-redes {
     position: relative;
     margin-top: 0vh;
@@ -378,5 +386,11 @@ body {
   .logos-redes {
     position: relative;
     margin-top: 0vh;
+  }
+  .container-hero {
+    height: 40vh;
+  }
+  .imagenfondo {
+    width: 100%;
   }
 }
