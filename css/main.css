@@ -81,16 +81,18 @@ body {
   text-decoration: none;
   color: white;
 }
-
 .container-hero {
-  height: 80vh;
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 .imagenfondo {
   box-sizing: border-box;
   align-content: center;
   width: 100%;
+  overflow: hidden;
 }
 
 .esloganheader {
@@ -361,9 +363,12 @@ body {
     display: inline;
     margin-left: 5%;
   }
+  .container-hero {
+    height: 500px;
+  }
 }
 /*tablet*/
-@media all and (min-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1200px) {
   .dafo-equipo,
   .integrantes,
   .text-container {
@@ -377,5 +382,21 @@ body {
   .logos-redes {
     position: relative;
     margin-top: 0vh;
+  }
+  .container-hero {
+    height: 450px;
+    max-width: 1200px;
+  }
+  .imagenfondo {
+    max-width: 1200px;
+  }
+}
+/*movil*/
+@media screen and (max-width: 768px) {
+  .container-hero {
+    max-width: 768px;
+  }
+  .imagenfondo {
+    max-width: 768px;
   }
 }
