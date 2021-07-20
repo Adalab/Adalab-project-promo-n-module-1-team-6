@@ -31,9 +31,6 @@ body {
   background-color: #099d8d;
   font-family: var(--font-family);
 }
-.logo-image {
-  height: 80%;
-}
 
 .containerheader {
   box-sizing: content-box;
@@ -269,6 +266,8 @@ body {
   line-height: 1.88;
   text-align: center;
   color: #099d8d;
+  padding-top: 1%;
+  transform: scale(2);
 }
 .fab,
 .fas {
