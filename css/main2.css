@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+:root {
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --color-titulo: #14d9c4;
+  --color-white: #ffffff;
+  --color-grey: #b8b8b9;
+  --quince: 0.937rem;
+}
+body {
+  width: 100vw;
+  font-size: 16px;
+}
+
+/*---*/
+.nombreequipoheader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  text-align: center;
+  height: 3.75rem;
+  color: white;
+  background-color: #099d8d;
+  font-family: var(--font-family);
+}
+
+.textomenuheader {
+  box-sizing: content-box;
+  display: flex;
+  align-content: space-around;
+  height: 2.5rem;
+  text-decoration: none;
+  color: white;
+  align-items: baseline;
+  justify-content: space-around;
+  background-color: var(--color-titulo);
+  font-family: var(--font-family);
+}
+
+.boxheader {
+  height: 1.87rem;
+  font-size: var(--quince);
+  padding: 0.75rem;
+  text-align: center;
+  list-style: none;
+}
+
+.enlace {
+  text-decoration: none;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+.container-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 22.5rem;
+}
+.imagenfondo {
+  width: 22.5rem;
+  align-content: center;
+  overflow: hidden;
+}
+
+.esloganheader {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: var(--quince);
+  font-size: var(--quince);
+  margin-top: -6vh;
+  margin-left: 5vw;
+  padding: 0.375rem; /*esta repetido*/
+  height: 10%;
+  width: 70%;
+  color: black;
+  font-family: var(--font-family);
+  background-color: var(--color-titulo); /*esta repetido*/
+  border: solid 0.5px #099d8d;
+}
+.eslogantext {
+  font-family: var(--font-family);
+  font-size: 1.125rem;
+  text-align: center;
+}
+.esloganheader:hover {
+  background-color: pink;
+  border: solid 0.5px purple;
+}
+/*--------------main section-------------------------------------------------------*/
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: var(--font-family);
+  color: #54585a;
+  background-color: var(--color-white);
+}
+.titulo {
+  width: 100%;
+  color: #099d8d;
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+}
+/*----EQUIPO---------*/
+.equipo {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: -4rem;
+  z-index: 9999;
+}
+
+.titulo-team {
+  color: var(--color-titulo);
+  display: flexbox;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--font-family);
+  padding: 0.625rem 0.625rem;
+  text-transform: uppercase;
+  z-index: 9999;
+}
+/*------triangulo------------*/
+.triangulo {
+  background-color: #f1f1f1;
+  border: 0.1875rem solid violet; /*---------pendiente borrar*/
+  transform: rotate(45deg);
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  bottom: -2rem;
+  margin-left: 40%;
+}
+/*----- DAFO -------------*/
+.dafo-equipo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: var(--color-grey);
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.fortalezas,
+.debilidades {
+  line-height: 1.5;
+  margin: 1.25rem 1.25rem 0;
+}
+
+.titulo-fortalezas,
+.titulo-debilidades {
+  font-size: 1.375rem;
+}
+
+/*------- WHO-WE-ARE -----------*/
+.who-we-are {
+  padding: 2%;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-color: var(--color-white);
+}
+.title-who-we-are {
+  text-align: center;
+  padding: 1%;
+  line-height: 1.88;
+  text-transform: uppercase;
+}
+
+.integrantes {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photo-container {
+  height: 18.75rem;
+  width: 18.75rem;
+}
+.photo {
+  width: 100%;
+  min-width: 15.63rem;
+}
+.titulo-integrantes {
+  color: #000000;
+  font-size: 1.25rem;
+  font-weight: unset;
+}
+.logos-redes {
+  margin: var(--quince) 5.188rem 0;
+  font-family: FontAwesome5Brands;
+  font-size: 0.5rem;
+  line-height: 1.88;
+  text-align: center;
+  color: #099d8d;
+  padding-top: 1%;
+  transform: scale(2);
+}
+.fab,
+.fas {
+  color: #099d8d;
+}
+/*--------------footer-----------------------------------------------------------------------*/
+.footer {
+  border-top: 0.0625rem solid #54585a;
+  margin-top: 2.813rem;
+  background-color: var(--color-white);
+}
+.footer_container {
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_copy {
+  margin-top: 1.875rem;
+  color: var(--color-grey);
+}
+.footer_links {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  list-style: none;
+}
+.footer_link {
+  text-decoration: none;
+  line-height: 1.5rem;
+  color: #54585a;
+  text-transform: uppercase;
+}
+.logo_adalab {
+  margin-top: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.footer_logo_image {
+  width: 7.188rem;
+  height: 2.813rem;
+}
+/*---------------mediaqueris------------*/
