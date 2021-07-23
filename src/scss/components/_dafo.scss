@@ -10,24 +10,37 @@
   @media all and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-around;
+    padding: 45px 45px 60px 45px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 45px 138px 60px 138px;
   }
 }
 
 .fortalezas {
-  width: 100%;
   line-height: 1.5;
-  margin: 20px 10px 0;
+  padding: 0px 15px 0px 15px;
+  @media all and (min-width: 768px) {
+    padding: 0px 15px 0px 0px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 0px 22.5px 0px 0px;
+  }
 }
 .titulo-fortalezas {
   font-size: 22px;
 }
 
 .debilidades {
-  padding-top: 30px;
-  width: 100%;
   line-height: 1.5;
+  padding: 30px 15px 0px 15px;
+  @media all and (min-width: 768px) {
+    padding: 0px 0px 0px 15px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 0px 0px 0px 22.5px;
+  }
 }
 .titulo-debilidades {
   font-size: 22px;
-  margin: 20px 20px 0;
 }
