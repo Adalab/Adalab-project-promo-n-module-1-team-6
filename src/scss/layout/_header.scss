@@ -88,12 +88,12 @@
   font-size: 15px;
   margin-top: -6vh;
   margin-left: 5vw;
-  padding: 6px; /*esta repetido*/
+
   height: 10%;
   width: 70%;
   color: black;
   font-family: $font-family;
-  background-color: #14d9c4; /*esta repetido*/
+  background-color: white;
   border: solid 0.5px #099d8d;
   margin-left: 2%;
 }
@@ -108,4 +108,33 @@
   background-color: pink;
   border: solid 0.5px purple;
   margin-right: 2%;
+}
+
+/*desktop*/
+@media all and (min-width: 1200px) {
+  .logo-image {
+    justify-content: flex-start;
+  }
+  .textomenuheader {
+    position: absolute;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .container-hero {
+    height: 500px;
+  }
+}
+
+/*tablet*/
+@media all and (min-width: 768px) and (max-width: 1200px) {
+}
+
+// /*movil*/
+@media screen and (max-width: 768px) {
+  .container-hero {
+    max-width: 768px;
+  }
+  .imagenfondo {
+    max-width: 768px;
+  }
 }
