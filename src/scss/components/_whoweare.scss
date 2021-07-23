@@ -1,0 +1,59 @@
+.who-we-are {
+  padding: 2%;
+  border: 2px solid #ffffff;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.title-who-we-are {
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+  line-height: 1.88;
+  text-transform: uppercase;
+}
+.integrantes {
+  width: 100%;
+  padding: 2%;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photo-container {
+  height: 300px;
+  width: 300px;
+}
+.photo {
+  width: 100%;
+  min-width: 250px;
+}
+
+.titulo-integrantes {
+  color: #000000;
+  font-size: 20px;
+  font-weight: unset;
+}
+
+.logos-redes {
+  margin: 15px 83px 0;
+  font-family: FontAwesome5Brands;
+  font-size: 0.5rem;
+  line-height: 1.88;
+  text-align: center;
+  color: #099d8d;
+  padding-top: 1%;
+}
+.fab,
+.fas {
+  color: #099d8d;
+  transform: scale(2);
+  padding-right: 2em;
+}
