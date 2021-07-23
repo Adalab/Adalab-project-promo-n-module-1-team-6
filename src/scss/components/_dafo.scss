@@ -6,8 +6,7 @@
   background-color: #b8b8b9;
   width: 100%;
   text-align: center;
-  padding: 2%;
-  padding-top: 10%;
+  padding: 30px 15px 45px 15px;
   @media all and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-around;
@@ -24,6 +23,7 @@
 }
 
 .debilidades {
+  padding-top: 30px;
   width: 100%;
   line-height: 1.5;
 }
