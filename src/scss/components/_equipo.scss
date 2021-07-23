@@ -14,7 +14,13 @@
 .equipo {
   div {
     z-index: 9999;
-    padding-top: 15px;
+    padding: 15px 15px 30px 15px;
+    @media all and (min-width: 768px) {
+      padding: 15px 45px 30px 45px;
+    }
+    @media all and (min-width: 1200px) {
+      padding: 15px 300px 60px 300px;
+    }
   }
 }
 .titulo-team {
@@ -25,9 +31,9 @@
 .triangulo {
   background-color: #f1f1f1;
   transform: rotate(45deg);
-  width: 5rem;
-  height: 5rem;
-  margin-bottom: -4vh;
+  width: 30px;
+  height: 30px;
+  margin-bottom: -15px;
   margin-left: auto;
   margin-right: auto;
 }
