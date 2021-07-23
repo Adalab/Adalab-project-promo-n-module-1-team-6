@@ -1,28 +1,25 @@
 .equipo {
-  padding-top: 30px;
+  padding-top: 76px;
+  @media all and (min-width: 768px) {
+    padding-top: 45px;
+  }
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  border: 2px solid white;
   line-height: 1.5;
   background-color: #f1f1f1;
 }
 
-.equipo p {
-  z-index: 9999;
+.equipo {
+  div {
+    z-index: 9999;
+    padding-top: 15px;
+  }
 }
 .titulo-team {
-  color: #14d9c4;
-  width: 100%;
-  display: flexbox;
-  justify-content: center;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  padding: 10px 10px;
+  color: #099d8d;
   text-transform: uppercase;
-  z-index: 9999;
 }
 /*------------------*/
 .triangulo {
