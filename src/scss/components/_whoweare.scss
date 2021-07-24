@@ -1,7 +1,6 @@
+// PROVISIONAL!!! HAY QUE CAMBIAR COSITAS
+
 .who-we-are {
-  padding: 2%;
-  border: 2px solid #ffffff;
-  padding: 1%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -21,39 +20,130 @@
 }
 .integrantes {
   width: 100%;
-  padding: 2%;
   line-height: 1.5;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  padding-bottom: 45px;
+  @media all and (min-width: 1200px) {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2%;
+  }
+  @media all and (min-width: 768px) and (max-width: 1200px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 .photo-container {
-  height: 300px;
-  width: 300px;
+  height: 180px;
+  width: 180px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: solid 5px #b8b8b9;
+  overflow: hidden;
+
+  @media all and (min-width: 1200px) {
+    height: 278px;
+    width: 278px;
+  }
+  @media all and (min-width: 768px) and (max-width: 1200px) {
+    height: 207px;
+    width: 207px;
+  }
 }
 .photo {
   width: 100%;
-  min-width: 250px;
+  min-width: 180px;
+
+  @media all and (min-width: 1200px) {
+    height: 278px;
+    width: 278px;
+  }
+  @media all and (min-width: 768px) and (max-width: 1200px) {
+    height: 207px;
+    width: 207px;
+  }
 }
 
-.titulo-integrantes {
+.whoweare__member--name {
   color: #000000;
   font-size: 20px;
   font-weight: unset;
 }
 
 .logos-redes {
-  margin: 15px 83px 0;
+  height: 30px;
+  width: 124px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   font-family: FontAwesome5Brands;
   font-size: 0.5rem;
-  line-height: 1.88;
-  text-align: center;
   color: #099d8d;
-  padding-top: 1%;
 }
 .fab,
 .fas {
   color: #099d8d;
   transform: scale(2);
-  padding-right: 2em;
+  p {
+    font-weight: bold;
+  }
+}
+.text-container--big {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  @media all and (min-width: 1200px) {
+    width: 600px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  @media all and (min-width: 768px) and (max-width: 1200px) {
+    flex-direction: column;
+    width: 600px;
+    align-items: flex-start;
+  }
+}
+
+.text {
+  width: 290px;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 16px;
+  padding: 0 15px 15px 15px;
+  @media all and (min-width: 1200px) {
+    text-align: left;
+    width: 100%;
+    padding: 0;
+  }
+  @media all and (min-width: 768px) and (max-width: 1200px) {
+    text-align: left;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.integrante1 {
+  @media all and (min-width: 1200px) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  @media all and (min-width: 768px) and (max-width: 1200px) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+}
+.text-integrante1 {
+  @media all and (min-width: 1200px) {
+    text-align: right;
+    align-items: flex-end;
+  }
+  @media all and (min-width: 768px) and (max-width: 1200px) {
+    text-align: right;
+    align-items: flex-end;
+  }
 }
