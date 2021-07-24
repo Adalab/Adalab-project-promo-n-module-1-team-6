@@ -12,6 +12,10 @@
   font-family: $font-family;
 }
 
+.logo-image {
+  display: flex;
+  justify-content: flex-start;
+}
 .containerheader {
   box-sizing: content-box;
   display: flex;
@@ -116,9 +120,11 @@
     justify-content: flex-start;
   }
   .textomenuheader {
-    position: absolute;
     flex-direction: row;
     justify-content: flex-end;
+    position: relative;
+    margin-top: -4.5vh;
+    background-color: transparent;
   }
   .container-hero {
     height: 500px;
