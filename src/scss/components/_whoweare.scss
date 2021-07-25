@@ -1,4 +1,4 @@
-.who-we-are {
+.whoweare__section--general {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -9,7 +9,7 @@
   background-color: #ffffff;
 }
 
-.title-who-we-are {
+.whoweare__title {
   text-align: center;
   padding: 30px 0 30px 0;
   text-transform: uppercase;
@@ -19,7 +19,7 @@
   }
 }
 
-.whoweare-container--member-left {
+.whoweare__container {
   width: 100%;
   line-height: 1.5;
   display: flex;
@@ -28,113 +28,90 @@
   justify-content: center;
   text-align: center;
   padding: 0 15px 45px 15px;
-
-  @media all and (min-width: 1200px) {
-    flex-direction: row;
-    padding: 0 0 60px 138px;
+  @media all and (min-width: 768px) {
     justify-content: flex-start;
     align-items: flex-start;
-    text-align: left;
-  }
-  @media all and (min-width: 768px) and (max-width: 1200px) {
-    padding-bottom: 0;
-    flex-direction: row;
     padding: 0 44px 60px 44px;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: left;
   }
-}
-.whoweare-container--information-left {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  @media all and (min-width: 1200px) {
-    width: 45.5%;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 0 0 45px;
+  &--left-align {
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+      text-align: left;
+    }
+    @media all and (min-width: 1200px) {
+      padding: 0 0 60px 138px;
+    }
   }
-  @media all and (min-width: 768px) and (max-width: 1200px) {
-    width: 72%;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 0 0 29px;
-  }
-}
-.whoweare-container--member-right {
-  width: 100%;
-  line-height: 1.5;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 0 15px 45px 15px;
+  &--right-align {
+    @media all and (min-width: 768px) {
+      flex-direction: row-reverse;
+      text-align: right;
+    }
 
-  @media all and (min-width: 1200px) {
-    flex-direction: row-reverse;
-    padding: 0 138px 60px 0;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: right;
-  }
-  @media all and (min-width: 768px) and (max-width: 1200px) {
-    padding-bottom: 0;
-    flex-direction: row-reverse;
-    padding: 0 44px 60px 44px;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: right;
+    @media all and (min-width: 1200px) {
+      padding: 0 138px 60px 0;
+    }
   }
 }
-.whoweare-container--information-right {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
 
-  @media all and (min-width: 1200px) {
-    width: 45.5%;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 0 45px 0 0;
-  }
-  @media all and (min-width: 768px) and (max-width: 1200px) {
-    width: 72%;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 0 29px 0 0;
-  }
-}
-.photo-container {
-  height: 180px;
-  width: 180px;
-  margin-bottom: 15px;
-  border-radius: 4px;
-  border: solid 5px #b8b8b9;
-  overflow: hidden;
-  @media all and (min-width: 1200px) {
-    height: 278px;
-    width: 278px;
-    margin-bottom: 0;
-  }
-  @media all and (min-width: 768px) and (max-width: 1200px) {
-    height: 205px;
-    width: 205px;
-    margin-bottom: 0;
-  }
-}
-.photo {
+.whoweare__photo {
   width: 100%;
   min-width: 180px;
+  &--container {
+    height: 180px;
+    width: 180px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: solid 5px #b8b8b9;
+    overflow: hidden;
+    @media all and (min-width: 1200px) {
+      height: 278px;
+      width: 278px;
+      margin-bottom: 0;
+    }
+    @media all and (min-width: 768px) and (max-width: 1200px) {
+      height: 205px;
+      width: 205px;
+      margin-bottom: 0;
+    }
+  }
 }
 .whoweare__member--name {
   height: 45px;
   color: #000000;
   font-size: 20px;
   font-weight: unset;
+}
+.whoweare__information {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  @media all and (min-width: 768px) {
+    width: 72%;
+  }
+  @media all and (min-width: 1200px) {
+    width: 45.5%;
+  }
+
+  &--left-align {
+    @media all and (min-width: 768px) {
+      align-items: flex-start;
+      padding: 0 0 0 29px;
+    }
+    @media all and (min-width: 1200px) {
+      padding: 0 0 0 45px;
+    }
+  }
+  &--right-align {
+    @media all and (min-width: 768px) {
+      align-items: flex-end;
+      padding: 0 29px 0 0;
+    }
+    @media all and (min-width: 1200px) {
+      padding: 0 45px 0 0;
+    }
+  }
 }
 
 .logos-redes {
