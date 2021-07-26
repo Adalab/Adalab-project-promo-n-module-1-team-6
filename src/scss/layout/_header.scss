@@ -36,6 +36,7 @@
   height: 40px;
   text-decoration: none;
   color: white;
+  font-weight: bolder;
   align-items: baseline;
   justify-content: space-around;
   background-color: #14d9c4;
@@ -122,8 +123,9 @@
   .textomenuheader {
     flex-direction: row;
     justify-content: flex-end;
-    position: relative;
-    margin-top: -4.5vh;
+    /*margin-top: -4.5vh;*/
+    position: absolute;
+    top: 12px;
     background-color: transparent;
   }
   .container-hero {
