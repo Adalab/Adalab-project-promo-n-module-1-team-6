@@ -5,9 +5,22 @@
 </p>
 <small>Todos los campos marxados con <strong class="esterisco"></strong>*</strong> son obligatorios.</small>
 
-<form action="" method="POST">
+<form action="/" method="POST">
   <label>
     Nombre completo <strong class="esterisco"></strong>*</strong>
     <input type="text" id="name" name="name" placeholder="Nombre...">
   </label>
+  <label>
+    Email <strong class="esterisco"></strong>*</strong>
+    <input type="mail" id="mail" name="mail" placeholder="nombre.apellidos@mail.com">
+  </label>
+  <label>
+    Teléfono
+    <input type="tel" id="tel" name="tel" placeholder="Ej: +34 678912345 ">
+  </label>
+  <label>
+    Mensaje<strong class="esterisco"></strong>*</strong>
+    <textarea id="message" name="message" placeholder="¿Qué necesitas?">
+  </label>
+  <input type="submit">
 </form>
