@@ -22,6 +22,28 @@ body {
   }
 }
 /*----------------*/
+.contact__hero--container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-height: 316px;
+  overflow: hidden;
+
+  @media screen and (min-width: 768px) {
+    height: 361px;
+  }
+  @media all and (min-width: 1200px) {
+    max-width: none;
+    height: 490px;
+  }
+}
+.contact__hero--image {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/*----------------*/
 .esterisco {
   color: $light-green;
 }
