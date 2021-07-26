@@ -1,26 +1,42 @@
-<h1>Contacto</h1>
-<p>
-  Estamos encantados que te hayas interesado en nuestro equipo y será un placer
-  colaborar contigo.
-</p>
-<small>Todos los campos marcados con <strong class="esterisco"></strong>*</strong> son obligatorios.</small>
+<main class="main">
+  <h1 class="main__titulo">Contacto</h1>
+  <section class="main__presentation">
+    <p>
+      Estamos encantados que te hayas interesado en nuestro equipo y será un
+      placer colaborar contigo.
+    </p>
+    <small class="small"
+      >Todos los campos marcados con <strong class="esterisco">*</strong> son
+      obligatorios.</small
+    >
+  </section>
 
-<form action="/" method="POST">
-  <label>
-    Nombre completo <strong class="esterisco"></strong>*</strong>
-    <input type="text" id="name" name="name" placeholder="Nombre...">
-  </label>
-  <label>
-    Email <strong class="esterisco"></strong>*</strong>
-    <input type="mail" id="mail" name="mail" placeholder="nombre.apellidos@mail.com">
-  </label>
-  <label>
-    Teléfono
-    <input type="tel" id="tel" name="tel" placeholder="Ej: +34 678999999 ">
-  </label>
-  <label>
-    Mensaje<strong class="esterisco"></strong>*</strong>
-    <textarea id="message" name="message" rows="8" cols="80" placeholder="¿Qué necesitas?">
-  </label>
-  <input type="submit">
-</form>
+  <form class="form" action="/" method="POST">
+    <label class="form__label" for="name">
+      Nombre completo <strong class="esterisco">*</strong>
+    </label>
+    <input class="form__input" type="text" id="name" name="name" placeholder="Nombre..." />
+    <label class="form__label" for="mail"> Email <strong class="esterisco">*</strong> </label>
+    <input class="form__input"
+      type="mail"
+      id="mail"
+      name="mail"
+      placeholder="nombre.apellidos@mail.com"
+    />
+    <label class="form__label">
+      Teléfono
+    </label for="tel">
+    <input class="form__input" type="tel" id="tel" name="tel" placeholder="Ej: +34 678999999 " />
+   <label class="form__label" for="message">
+      Mensaje<strong class="esterisco">*</strong>
+    </label>
+      <textarea class="form__text"
+        id="message"
+        name="message"
+        rows="8"
+        placeholder="¿Qué necesitas?"
+      ></textarea>
+    
+    <input class="form__input--submit" type="submit" />
+  </form>
+</main>

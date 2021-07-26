@@ -1,0 +1,70 @@
+body {
+  background-color: $white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main {
+  padding: 30px 15px 60px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: 16px;
+  font-family: $font-family-dos;
+  color: $dark-grey;
+  .main__titulo {
+    color: $light-green;
+    font-family: $font-family-title;
+    font-size: 24px;
+    padding: 30px 15px 15px 15px;
+    text-transform: uppercase;
+  }
+}
+/*----------------*/
+.esterisco {
+  color: $light-green;
+}
+/*------------------*/
+.main__presentation {
+  line-height: 1.5;
+  padding: 15px 0px 58px 0px;
+  small {
+    display: block;
+    font-size: 10px;
+    padding-top: 30px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  .form__label {
+    width: fit-content;
+    padding-bottom: 7px;
+    padding-top: 13px;
+    font-size: 14px;
+  }
+  .form__input--submit {
+    margin-top: 30px;
+    height: 45px;
+    background-color: $dark-green;
+    border-radius: 5px;
+    color: $white;
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  .form__input {
+    opacity: 50%;
+    border: 1px solid;
+    height: 45px;
+  }
+  .form__text {
+    opacity: 50%;
+    border: 1px solid;
+    height: 105px;
+  }
+}
