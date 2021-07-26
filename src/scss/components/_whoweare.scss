@@ -6,7 +6,7 @@
   align-content: center;
   text-align: center;
   width: 100%;
-  background-color: #ffffff;
+  background-color: $white;
 }
 
 .whoweare__title {
@@ -62,17 +62,17 @@
     width: 180px;
     margin-bottom: 15px;
     border-radius: 4px;
-    border: solid 5px #b8b8b9;
+    border: solid 5px $light-grey;
     overflow: hidden;
-    @media all and (min-width: 1200px) {
-      height: 278px;
-      width: 278px;
-      margin-bottom: 0;
-    }
-    @media all and (min-width: 768px) and (max-width: 1200px) {
+
+    @media all and (min-width: 768px) {
       height: 205px;
       width: 205px;
       margin-bottom: 0;
+    }
+    @media all and (min-width: 1200px) {
+      height: 278px;
+      width: 278px;
     }
   }
 }
@@ -127,7 +127,7 @@
 }
 .fab,
 .fas {
-  color: #099d8d;
+  color: $dark-green;
   transform: scale(2);
   p {
     font-weight: bold;
