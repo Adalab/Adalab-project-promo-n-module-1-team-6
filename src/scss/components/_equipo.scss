@@ -1,17 +1,14 @@
 .equipo {
-  padding-top: 76px;
-  @media all and (min-width: 768px) {
-    padding-top: 45px;
-  }
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   line-height: 1.5;
   background-color: #f1f1f1;
-}
-
-.equipo {
+  padding-top: 76px;
+  @media all and (min-width: 768px) {
+    padding-top: 45px;
+  }
   div {
     z-index: 9999;
     padding: 15px 15px 30px 15px;
@@ -22,13 +19,14 @@
       padding: 15px 300px 60px 300px;
     }
   }
+  .equipo__titulo {
+    color: #099d8d;
+    text-transform: uppercase;
+  }
 }
-.titulo-team {
-  color: #099d8d;
-  text-transform: uppercase;
-}
+
 /*------------------*/
-.triangulo {
+.equipo__triangulo {
   background-color: #f1f1f1;
   transform: rotate(45deg);
   width: 30px;
