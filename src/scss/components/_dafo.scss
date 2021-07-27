@@ -1,4 +1,4 @@
-.dafo-equipo {
+.dafo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,7 +17,7 @@
   }
 }
 
-.fortalezas {
+.dafo__fortalezas {
   line-height: 1.5;
   padding: 0px 15px 0px 15px;
   @media all and (min-width: 768px) {
@@ -28,12 +28,12 @@
     padding: 0px 22.5px 0px 0px;
     width: 50%;
   }
-}
-.titulo-fortalezas {
-  font-size: 22px;
+  .dafo__fortalezas--titulo {
+    font-size: 22px;
+  }
 }
 
-.debilidades {
+.dafo__debilidades {
   line-height: 1.5;
   padding: 30px 15px 0px 15px;
   @media all and (min-width: 768px) {
@@ -44,7 +44,7 @@
     padding: 0px 0px 0px 22.5px;
     width: 50%;
   }
-}
-.titulo-debilidades {
-  font-size: 22px;
+  .dafo__debilidades--titulo {
+    font-size: 22px;
+  }
 }
