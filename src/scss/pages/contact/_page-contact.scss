@@ -17,7 +17,7 @@ body {
     padding: 30px 163px 60px 163px;
   }
   @media all and (min-width: 1200px) {
-    padding: 30px 163px 60px 163px; /*pendiente*/
+    padding: 45px 300px 120px 300px;
   }
   .main__titulo {
     color: $light-green;
@@ -63,16 +63,12 @@ body {
     padding-top: 30px;
   }
 }
+/*-------------*/
 
 .form {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  @media all and (min-width: 768px) {
-    display: grid;
-    grid-template-columns: 1fr 206px;
-    grid-template-rows: repeat(5, 1fr); /*opcioinal?---*/
-  }
   .form__label {
     width: fit-content;
     padding-bottom: 7px;
@@ -82,23 +78,7 @@ body {
       grid-column: 1/3;
     }
   }
-  .form__input--submit {
-    margin-top: 30px;
-    height: 45px;
-    background-color: $dark-green;
-    border-radius: 5px;
-    color: $white;
-    border-style: none;
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: 18px;
-    @media all and (min-width: 768px) {
-      display: grid;
-      grid-template-columns: 1fr 206px;
-      grid-row: 10/11;
-      grid-column: 2/3;
-    }
-  }
+
   .form__input {
     opacity: 50%;
     border: 1px solid;
@@ -111,5 +91,76 @@ body {
     opacity: 50%;
     border: 1px solid;
     height: 105px;
+  }
+}
+.form__fieldset--submit {
+  @media all and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 206px;
+  }
+  @media all and (min-width: 1200px) {
+    grid-template-columns: 1fr 278px;
+  }
+  .form__fieldset--submit__button {
+    margin-top: 30px;
+    height: 45px;
+    background-color: $dark-green;
+    border-radius: 5px;
+    color: $white;
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 18px;
+    @media all and (min-width: 768px) {
+      grid-row: 10/11;
+      grid-column: 2/3;
+    }
+  }
+}
+
+/* deskop - grid tel al lado de mail*/
+.form__fieldset {
+  width: 99%;
+  grid-column: 1/3;
+  display: block;
+  text-align: start;
+  box-sizing: border-box;
+  @media all and (min-width: 1200px) {
+    display: grid;
+    grid-template-columns: 2.43fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 45px;
+  }
+  .form__label--tel {
+    width: 100%;
+    display: inline-block;
+    @media all and (min-width: 1200px) {
+      grid-column: 2/3;
+      grid-row: 1/2;
+    }
+  }
+  .form__input--tel {
+    width: 100%;
+    display: inline-block;
+    @media all and (min-width: 1200px) {
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+  }
+  .from__label--mail {
+    width: 100%;
+    display: inline-block;
+    @media all and (min-width: 1200px) {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+  }
+  .from__input--mail {
+    width: 100%;
+    display: inline-block;
+    @media all and (min-width: 1200px) {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
   }
 }

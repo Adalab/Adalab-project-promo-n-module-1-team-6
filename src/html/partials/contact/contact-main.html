@@ -16,17 +16,20 @@
       Nombre completo <strong class="esterisco">*</strong>
     </label>
     <input class="form__input" type="text" id="name" name="name" placeholder="Nombre..." />
-    <label class="form__label" for="mail"> Email <strong class="esterisco">*</strong> </label>
-    <input class="form__input"
-      type="mail"
-      id="mail"
-      name="mail"
-      placeholder="nombre.apellidos@mail.com"
-    />
-    <label class="form__label">
-      Teléfono
-    </label for="tel">
-    <input class="form__input" type="tel" id="tel" name="tel" placeholder="Ej: +34 678999999 " />
+    <fieldset class="form__fieldset">
+      <label class="form__label from__label--mail" for="mail"> Email <strong class="esterisco">*</strong> </label>
+      <input class="form__input from__input--mail"
+        type="mail"
+        id="mail"
+        name="mail"
+        placeholder="nombre.apellidos@mail.com"
+      />
+      <label class="form__label form__label--tel">
+        Teléfono
+      </label for="tel">
+      <input class="form__input form__input--tel" type="tel" id="tel" name="tel" placeholder="Ej: +34 678999999 " />
+    </fieldset>
+    
    <label class="form__label" for="message">
       Mensaje<strong class="esterisco">*</strong>
     </label>
@@ -36,7 +39,8 @@
         rows="8"
         placeholder="¿Qué necesitas?"
       ></textarea>
-    
-    <input class="form__input--submit" type="submit" />
+    <fieldset class="form__fieldset--submit">
+      <input class="form__fieldset--submit__button" type="submit" />
+    </fieldset>
   </form>
 </main>
