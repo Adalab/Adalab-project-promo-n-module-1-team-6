@@ -4,7 +4,7 @@ body {
   margin-right: auto;
 }
 .main {
-  padding: 30px 15px 60px 15px;
+  padding: 30px 15px 15px 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,10 +14,10 @@ body {
   font-family: $font-family-dos;
   color: $dark-grey;
   @media all and (min-width: 768px) {
-    padding: 30px 163px 60px 163px;
+    padding: 30px 163px 15px 163px;
   }
   @media all and (min-width: 1200px) {
-    padding: 45px 300px 120px 300px;
+    padding: 45px 300px 75px 300px;
   }
   .main__titulo {
     color: $light-green;
@@ -94,6 +94,7 @@ body {
   }
 }
 .form__fieldset--submit {
+  width: 100%;
   @media all and (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 206px;
@@ -104,6 +105,7 @@ body {
   .form__fieldset--submit__button {
     margin-top: 30px;
     height: 45px;
+    width: 100%;
     background-color: $dark-green;
     border-radius: 5px;
     color: $white;
