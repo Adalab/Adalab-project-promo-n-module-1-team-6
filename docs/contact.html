@@ -2,94 +2,131 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge" />-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/adcd08db79.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+    <link rel="icon" type="image/png" href="./assets/images/icono.png" />
+    <title>Contacto</title>
   </head>
-
   <body>
     <div class="page">
       <header>
         <!-- MENÚ SUPERIOR Y TÍTULO: nombre de equipo y botones del navegador-->
-         
-        <div class="nombreequipoheader" >
-            <img  class="logo-image"
-           
-            src="./assets/images/logo.png"
-            alt="fondo"
-          />
-          </div>
-          <nav>
-            <ul class="textomenuheader">
-              <li class="boxheader1">
-                <a class="enlace" href="#link-equipo">
-                  <strong>EQUIPO</strong></a
-                >
-              </li>
-              <li class="boxheader2">
-                <a class="enlace" href="#link-who-we-are"
-                  ><strong>QUIENES SOMOS</strong></a
-                >
-              </li>
+        <div class="nombreequipoheader">
+          <img class="logo-image" src="./assets/images/logo.png" alt="fondo" />
+        </div>
+        <nav>
+          <ul class="textomenuheader">
+            <li class="boxheader1">
+              <a class="enlace" href="#link-equipo"> <strong>EQUIPO</strong></a>
+            </li>
+            <li class="boxheader2">
+              <a class="enlace" href="#link-who-we-are"
+                ><strong>QUIENES SOMOS</strong></a
+              >
+            </li>
             <li class="boxheader3">
               <a class="enlace" href="./contact.html" target="_blank"
                 ><strong>CONTACTO</strong></a
               >
-              </li>
-            </ul>
-          </nav>
-          <!-- IMAGEN DE FONDO: -->
-          <div class=container-hero>
-            <img  class="imagenfondo"
-           
-            src="./assets/images/imagen hero.png"
+            </li>
+          </ul>
+        </nav>
+        <!-- IMAGEN DE FONDO: -->
+        <div class="contact__hero--container">
+          <img
+            class="contact__hero--image"
+            src="./assets/images/contact_image.png"
             alt="fondo"
           />
-          </div>
-          
-
-          <!-- ESLOGAN -->
-          <div class="esloganheader">
-            <p class="eslogantext">Toda gran web, conlleva una gran responsabilidad </p>
-          </div>
+          <!-- pendiente modificar -->
         </div>
       </header>
-      <main>
-        <p>
-          Esta es otra segunda página del Starter kit. Mira el fichero
-          <code class="code">./src/html/partials/main.html</code> para cómo hemos creado el enlace
-          que te ha traído hasta aquí.
-        </p>
+
+      <main class="main">
+        <h1 class="main__titulo">Contacto</h1>
+        <section class="main__presentation">
+          <p>
+            Estamos encantados que te hayas interesado en nuestro equipo y será un
+            placer colaborar contigo.
+          </p>
+          <small class="small"
+            >Todos los campos marcados con <strong class="esterisco">*</strong> son
+            obligatorios.</small
+          >
+        </section>
+
+        <form class="form" action="/" method="POST">
+          <label class="form__label" for="name">
+            Nombre completo <strong class="esterisco">*</strong>
+          </label>
+          <input class="form__input" type="text" id="name" name="name" placeholder="Nombre..." />
+          <label class="form__label" for="mail"> Email <strong class="esterisco">*</strong> </label>
+          <input class="form__input"
+            type="mail"
+            id="mail"
+            name="mail"
+            placeholder="nombre.apellidos@mail.com"
+          />
+          <label class="form__label">
+            Teléfono
+          </label for="tel">
+          <input class="form__input" type="tel" id="tel" name="tel" placeholder="Ej: +34 678999999 " />
+         <label class="form__label" for="message">
+            Mensaje<strong class="esterisco">*</strong>
+          </label>
+            <textarea class="form__text"
+              id="message"
+              name="message"
+              rows="8"
+              placeholder="¿Qué necesitas?"
+            ></textarea>
+          
+          <input class="form__input--submit" type="submit" />
+        </form>
       </main>
+
       <footer class="footer">
-        <div class="footer_container">
-          <section class="footer_copy">Las 4 fantásticas &copy; 2021</section>
-          <nav>
-            <ul class="footer_links">
-              <li class="footer_list">
-                <a href="#link-equipo" class="footer_link">Equipo</a>
-              </li>
-              <li class="footer_list">
-                <a href="#link-who-we-are" class="footer_link">Quiénes somos</a>
-              </li>
-              <li class="footer_list">
-                <a href="./contact.html" class="footer_link" target="_blank"
-                  >Contacto</a
-                >
-              </li>
-            </ul>
-          </nav>
-          <section class="logo_adalab">
-            <a href="https://adalab.es/" target="_blank"
-              ><img
-                class="footer_logo_image"
-                src="assets/images/logo-adalab.png"
-                alt="Adalab"
-            /></a>
-          </section>
-        </div>
+        <section class="footer__copy">Las 4 fantásticas &copy; 2021</section>
+        <nav>
+          <ul class="footer__links">
+            <li class="footer__list">
+              <a href="#link-equipo" class="footer__links--link">Equipo</a>
+            </li>
+            <li class="footer__list">
+              <a href="#link-who-we-are" class="footer__links--link">Quiénes somos</a>
+            </li>
+            <li class="footer__list">
+              <a href="./contact.html" class="footer__links--link" target="_blank"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <section class="footer__logo">
+          <a href="https://adalab.es/" target="_blank"
+            ><img
+              class="footer__logo--image"
+              src="assets/images/logo-adalab.png"
+              alt="Adalab"
+          /></a>
+        </section>
       </footer>
 
     </div>
