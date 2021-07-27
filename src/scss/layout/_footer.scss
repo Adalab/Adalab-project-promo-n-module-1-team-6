@@ -1,8 +1,9 @@
 .footer {
-  border-top: 1px solid $footerbordertopcolor;
-  opacity: 60%;
+  border-top: 1px solid $dark-grey;
   margin-top: 45px;
-  background-color: $footerbackgroundcolor;
+  background-color: $white;
+  opacity: 60%;
+
   font: {
     family: $font-family;
     weight: bolder;
@@ -24,7 +25,7 @@
   }
   .footer__copy {
     margin-top: 30px;
-    color: $footercopycolor;
+    color: $light-grey;
 
     @media all and (min-width: 768px) {
       margin: 0px auto 0px 0px;
@@ -43,7 +44,7 @@
 
     .footer__links--link {
       line-height: 1.5rem;
-      color: $footerlinkcolor;
+      color: $dark-grey;
       text: {
         transform: uppercase;
         decoration: none;
@@ -53,7 +54,7 @@
 
   .footer__logo {
     margin: 1.25rem 0 2.8125rem 0;
-    opacity: unset;
+
     @media all and (min-width: 768px) {
       position: absolute;
       transform: translate(-10px, 15px);

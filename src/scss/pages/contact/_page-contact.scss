@@ -20,7 +20,7 @@ body {
     padding: 45px 300px 75px 300px;
   }
   .main__titulo {
-    color: $light-green;
+    color: $dark-green;
     font-family: $font-family-title;
     font-size: 24px;
     padding: 30px 15px 15px 15px;
@@ -63,7 +63,7 @@ body {
 }
 /*------------------*/
 .main__presentation {
-  line-height: 1.5;
+  line-height: 24px;
   padding: 15px 0px 58px 0px;
   .main__small {
     display: block;
