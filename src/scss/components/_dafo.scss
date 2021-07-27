@@ -22,9 +22,11 @@
   padding: 0px 15px 0px 15px;
   @media all and (min-width: 768px) {
     padding: 0px 15px 0px 0px;
+    width: 50%;
   }
   @media all and (min-width: 1200px) {
     padding: 0px 22.5px 0px 0px;
+    width: 50%;
   }
 }
 .titulo-fortalezas {
@@ -36,9 +38,11 @@
   padding: 30px 15px 0px 15px;
   @media all and (min-width: 768px) {
     padding: 0px 0px 0px 15px;
+    width: 50%;
   }
   @media all and (min-width: 1200px) {
     padding: 0px 0px 0px 22.5px;
+    width: 50%;
   }
 }
 .titulo-debilidades {
