@@ -68,7 +68,7 @@
 
 .enlace {
   text-decoration: none;
-  color: white;
+  color: $white;
 }
 .container-hero {
   background-image: url("../images/hero_image.png");
@@ -93,13 +93,13 @@
   background-color: transparent;
 }
 .eslogantext {
-  background-color: white;
+  background-color: $white;
   opacity: 90%;
   padding: 4%;
   margin: auto;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .eslogantext:hover {
@@ -139,6 +139,7 @@
     font-size: 15px;
     padding: 20px 15px 50px 20px;
     font-weight: 600;
+    font-size: 24px;
   }
 }
 
@@ -156,7 +157,6 @@
     -webkit-border-radius: 10px;
     border-radius: 15px;
     padding: 20px 15px 45px 20px;
-    font-size: 22px;
     font-weight: 700;
   }
 }
