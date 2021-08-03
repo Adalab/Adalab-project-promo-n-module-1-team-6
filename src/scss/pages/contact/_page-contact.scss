@@ -99,6 +99,14 @@ a {
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 18px;
+    transition: transform 0.5s ease-in-out, color 1s ease-in-out;
+    &:hover {
+      color: $dark-green;
+      font-weight: bolder;
+      background-color: $white;
+      border: 2px double $dark-green;
+      transform: scale(1.5);
+    }
     @media all and (min-width: 768px) {
       grid-row: 10/11;
       grid-column: 2/3;
