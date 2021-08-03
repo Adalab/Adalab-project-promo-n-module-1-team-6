@@ -7,6 +7,7 @@
   width: 100%;
   text-align: center;
   padding: 30px 15px 45px 15px;
+  animation: 7s infinite heart;
   @media all and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-around;
