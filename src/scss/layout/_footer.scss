@@ -1,8 +1,7 @@
 .footer {
-  border-top: 1px solid $dark-grey;
+  border-top: 1px solid #54585a60;
   margin-top: 45px;
   background-color: $white;
-  opacity: 60%;
 
   font: {
     family: $font-family;
@@ -25,7 +24,7 @@
   }
   .footer__copy {
     margin-top: 30px;
-    color: $light-grey;
+    color: #54585a8a;
 
     @media all and (min-width: 768px) {
       margin: 0px auto 0px 0px;
@@ -44,7 +43,7 @@
 
     .footer__links--link {
       line-height: 1.5rem;
-      color: $dark-grey;
+      color: #54585a8a;
       text: {
         transform: uppercase;
         decoration: none;
