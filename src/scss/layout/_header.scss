@@ -82,13 +82,13 @@
 .esloganheader {
   position: absolute;
   display: flex;
-  // justify-content: center;
+  //justify-content: center;
   // align-items: center;
-  overflow: hidden;
+  overflow: visible;
   height: 10%;
   width: 100%;
   font-size: 20px;
-  margin-top: -6vh;
+  margin-top: -30px;
   color: black;
   font-family: $font-family;
   background-color: transparent;
@@ -97,7 +97,7 @@
   background-color: $white;
   opacity: 70%;
   padding: 4%;
-  margin: auto;
+  margin: auto 15px auto 15px;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 18px;
