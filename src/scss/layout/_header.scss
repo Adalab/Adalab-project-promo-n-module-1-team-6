@@ -17,7 +17,6 @@
   display: flex;
   justify-content: flex-start;
   opacity: 100%;
-  animation: 3s infinite spin;
 }
 .containerheader {
   box-sizing: content-box;
@@ -131,7 +130,7 @@
 
   .eslogantext {
     width: 80%;
-    margin-left: 15%;
+    margin-left: 138px;
     overflow: hidden;
     align-items: center;
     height: 20%;
@@ -158,6 +157,7 @@
     -webkit-border-radius: 10px;
     border-radius: 15px;
     padding: 20px 15px 45px 20px;
+    margin-left: 46px;
     font-weight: 700;
   }
 }
