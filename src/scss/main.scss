@@ -4,3 +4,9 @@
 @import "layout/page";
 @import "layout/header";
 @import "layout/footer";
+
+a {
+  &:hover {
+    opacity: 0.7;
+  }
+}
